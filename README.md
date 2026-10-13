@@ -99,6 +99,22 @@ The application allows users to:
 - Download a prediction report as CSV
 - Start a new prediction
 
+## Limitations
+
+- The model was trained using the IBM Telco Customer Churn dataset, so its performance may differ on customers from other telecom providers or time periods.
+- Model predictions are estimates and are not guaranteed to be correct.
+- The current application uses manually prepared categorical encoding. The training and prediction encodings should be kept consistent.
+- The model's default classification threshold may not be optimal for every business. Threshold selection should consider the cost of missed churners and false alarms.
+- The observed relationships in the dataset do not prove that a particular customer characteristic causes churn.
+
+## Future Improvements
+
+- Build and save a complete Scikit-learn preprocessing and prediction pipeline.
+- Evaluate model performance using cross-validation.
+- Select a decision threshold using validation data and business requirements.
+- Monitor performance on new customer data.
+- Improve automated testing and deployment documentation.
+
 ## Project Structure
 
 ```text
@@ -116,26 +132,5 @@ Customer_Churn_Project/
 │
 ├── app.py
 └── README.md
-
-## Limitations
-
-- The model was trained using the IBM Telco Customer Churn dataset, so its performance may differ on customers from other telecom providers or time periods.
-- Model predictions are estimates and are not guaranteed to be correct.
-- The current application uses manually prepared categorical encoding. The training and prediction encodings should be kept consistent.
-- The model's default classification threshold may not be optimal for every business. Threshold selection should consider the cost of missed churners and false alarms.
-- The observed relationships in the dataset do not prove that a particular customer characteristic causes churn.
-
-## Future Improvements
-
-- Build and save a complete Scikit-learn preprocessing and prediction pipeline.
-- Evaluate model performance using cross-validation.
-- Select a decision threshold using validation data and business requirements.
-- Monitor performance on new customer data.
-- Improve automated testing and deployment documentation.
-
-
-
-
-
 
 
