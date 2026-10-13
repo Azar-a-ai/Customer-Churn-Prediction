@@ -14,6 +14,21 @@ Customer churn refers to customers leaving a service provider.
 
 This project uses the IBM Telco Customer Churn dataset to analyze customer behavior and build a machine learning model that predicts customer churn.
 
+## Exploratory Data Analysis (EDA)
+
+The IBM Telco Customer Churn dataset was analyzed to understand customer behavior and identify patterns associated with churn.
+
+Key observations:
+
+- **Contract type:** Month-to-month customers showed higher churn than customers with longer-term contracts.
+- **Internet service:** Fiber optic customers showed higher churn in the analyzed dataset.
+- **Payment method:** Customers using electronic check showed higher churn.
+- **Tenure:** Customers with shorter tenure were more likely to churn.
+- **Technical support:** Customers without technical support showed higher churn.
+- **Online security:** Customers without online security showed higher churn.
+
+These findings describe associations observed in the dataset and do not establish causation.
+
 ## Dataset
 
 Dataset: IBM Telco Customer Churn
