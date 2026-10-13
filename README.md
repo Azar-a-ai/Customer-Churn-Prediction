@@ -68,6 +68,19 @@ The project compares multiple machine learning models:
 
 The Logistic Regression model was used in the Streamlit application.
 
+## Model Comparison
+
+Multiple machine learning models were evaluated using the test dataset.
+
+| Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 80.48% | 65.42% | 56.15% | 60.43% | 84.27% |
+| Decision Tree | 72.60% | 48.38% | 47.86% | 48.12% | 64.65% |
+| Decision Tree (max depth = 5) | 79.42% | 63.13% | 54.01% | 58.21% | 82.67% |
+| Random Forest | 78.50% | 61.79% | 49.73% | 55.11% | 82.53% |
+
+Logistic Regression achieved the highest accuracy, F1-score, and ROC-AUC among the tested configurations, so it was selected for the Streamlit application.
+
 ## Model Performance
 
 Test Accuracy: 80.48%
