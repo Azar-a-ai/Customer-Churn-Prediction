@@ -115,8 +115,7 @@ Customer_Churn_Project/
 │   └── feature_names.pkl
 │
 ├── app.py
-└
-── README.md
+└── README.md
 
 ## Limitations
 
